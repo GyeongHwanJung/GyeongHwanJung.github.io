@@ -20,19 +20,21 @@ title                    : "GH's TECH BLOG"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "GyeongHwan Jung"
-description              : "Junior Developer's Diary."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "Junior Developer Hwan's Diary."
+url                      : "https://gyeonghwanjung.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "https://github.com/GyeongHwanJung"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus" 
+                           # "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "gyeonghwanjung-github-io"
+                           # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -104,9 +106,9 @@ analytics:
 author:
   name             : "GyeongHwan Jung"
   avatar           : "/assets/profile_image.jpg"
-  bio              : "A Curious Developer."
-  location         : "South Korea"
-  email            : "cheers3214@gmail.com"
+  bio              : "호기심 많은 예비 개발자입니다.<br>열심히 배워가고 있습니다!"
+  location         : "Republic of Korea"
+  email            : #"cheers3214@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -138,7 +140,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/GyeongHwanJung"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -285,6 +287,14 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+
+# _pages                      : 해당 하단 영역이 새로 추가되었습니다.
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
