@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 comments: true
 title: 한글 가독성 테스트
 key: korean readability test
