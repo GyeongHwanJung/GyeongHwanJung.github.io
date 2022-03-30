@@ -1,2 +1,2 @@
-## [GyeongHwanJung.github.io](gyeonghwanjung.github.io)
+## [my github blog](https://gyeonghwanjung.github.io/)
 theme from minimal-mistakes-jekyll
