@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/GyeongHwanJung/GyeongHwanJung.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/profile_image.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "호기심 많은 예비 개발자입니다.<br>열심히 배워가고 있습니다!" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "GH's TECH BLOG" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
